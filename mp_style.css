@@ -354,6 +354,9 @@ h3{
     }
 }
 @media (max-width: 800px){
+    h1{
+        font-size: 72px;
+    }
     .content{
         padding-bottom: 0;
     }
