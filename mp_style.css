@@ -339,6 +339,9 @@ h3{
     opacity: 0;
     transform: scale(1.2);
 }
+.transition-none{
+    transition: none;
+}
 @media (max-width: 1000px){
     .p-faq, .c-faq{
         display: none;

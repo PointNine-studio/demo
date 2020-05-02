@@ -1,9 +1,11 @@
 window.addEventListener('load', ()=>{
     //Preloader
     let preloader = document.getElementById('pl'),
-        colors = document.querySelectorAll('.js-color')
+        colors = document.querySelectorAll('.js-color'),
+        body = document.querySelector('body')
 
     preloader.classList.add('load-finish')
+    body.classList.remove('transition-none')
 
     setTimeout(() =>{
         //remove any "start" class
