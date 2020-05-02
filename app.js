@@ -4,8 +4,8 @@ window.addEventListener('load', ()=>{
         colors = document.querySelectorAll('.js-color'),
         body = document.querySelector('body')
 
-    preloader.classList.add('load-finish')
-    body.classList.remove('transition-none')
+        preloader.classList.add('load-finish')
+        body.classList.remove('transition-none')
 
     setTimeout(() =>{
         //remove any "start" class
@@ -13,6 +13,6 @@ window.addEventListener('load', ()=>{
             let color = colors[i]
             color.classList.remove(...[...color.classList].filter(n => n.indexOf('start') !== -1))
         }
-    }, 100)
+    }, 500)
 
 })
