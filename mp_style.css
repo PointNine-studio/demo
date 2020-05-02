@@ -104,6 +104,7 @@ h1{
     margin: 0 auto;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
     transition: 2s ease;
+    transition-delay: 1s;
 }
 .heading-start{
     transform: scale(.8);
@@ -206,6 +207,7 @@ h2{
     height: 90%;
     transition: 2s ease;
     transform-origin: bottom right;
+    transition-delay: .5s;
 }
 .image img{
     align-self: flex-end;
@@ -321,6 +323,7 @@ h3{
     opacity: 1;
     pointer-events: none;
     transition: 2s ease;
+    transition-delay: .5s;
 }
 .more{
     width: 100%;
