@@ -32,9 +32,6 @@ window.addEventListener('load', () =>{
     thisPage = window.location.href,
     toggle = document.querySelectorAll('#info-toggle, #closer'),
     more = document.getElementById('more');
-    if( thisPage.indexOf('point') < 0){
-        page.classList.add('dns')
-    }
     for (var i = 0; i < toggle.length; ++i) {
         toggle[i].addEventListener('click', () =>{
             more.classList.add('m-hide');
