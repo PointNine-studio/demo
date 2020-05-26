@@ -47,7 +47,7 @@ window.addEventListener('load', () =>{
                 links[i].classList.add('this-page')
             }
         }
-        if( thisPage.indexOf('Point') < 0){
+        if( thisPage.indexOf('point') < 0){
             page.classList.add('dns')
         }
     window.addEventListener('scroll', () =>{
