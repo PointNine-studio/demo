@@ -47,9 +47,9 @@ window.addEventListener('load', () =>{
                 links[i].classList.add('this-page')
             }
         }
-        // if( thisPage.indexOf('The') < 0){
-        //     page.classList.add('dns')
-        // }
+        if( thisPage.indexOf('Point') < 0){
+            page.classList.add('dns')
+        }
     window.addEventListener('scroll', () =>{
     const move = document.querySelectorAll('.js-move')
         for (let i = 0; i < move.length; i++){
